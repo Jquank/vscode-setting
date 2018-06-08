@@ -1,4 +1,4 @@
-//vscode setting
+//setting
 {
     "files.autoSave": "onFocusChange",
     "workbench.colorTheme": "Monokai",
