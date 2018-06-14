@@ -1,4 +1,3 @@
-//setting
 {
     "files.autoSave": "onFocusChange",
     "workbench.colorTheme": "Monokai",
@@ -41,7 +40,7 @@
     ],
     "workbench.iconTheme": "vs-seti",
     "editor.fontFamily": "Consolas, 'Courier New', monospace",
-    "editor.wordWrap": "wordWrapColumn",
+   "editor.wordWrap": "wordWrapColumn",
     "editor.renderWhitespace": "none",
     "files.exclude": {
         "**/.git": true,
@@ -81,4 +80,5 @@
    "prettier.semi": false,
    "prettier.singleQuote": true,
    "prettier.eslintIntegration": true,
+   "editor.wordWrapColumn": 100,
 }
