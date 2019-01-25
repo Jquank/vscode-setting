@@ -1,98 +1,95 @@
 {
-  "files.autoSave": "onWindowChange",
-  "workbench.colorTheme": "Monokai",
-  "editor.fontSize": 17,
-  "editor.snippetSuggestions": "top",
-  "emmet.showSuggestionsAsSnippets": true,
-  "view-in-browser.customBrowser": "chrome",
-  "window.zoomLevel": 1,
-  "terminal.integrated.shell.windows": "C:\\Windows\\Sysnative\\cmd.exe",
-  "editor.autoIndent": true,
-  "editor.renderIndentGuides": true,
-  "editor.wrappingIndent": "same",
-  "editor.acceptSuggestionOnEnter": "on",
-  "editor.tabSize": 3,
-  "emmet.includeLanguages": {},
-  "html.format.indentHandlebars": true,
-  "auto-rename-tag.activationOnLanguage": [
-    "*"
-  ],
-  "less.compile": {},
-  "auto-close-tag.activationOnLanguage": [
-    "xml",
-    "php",
-    "blade",
-    "ejs",
-    "jinja",
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "plaintext",
-    "markdown",
-    "vue",
-    "liquid",
-    "erb",
-    "lang-cfml",
-    "cfml",
-    "HTML (Eex)"
-  ],
-  "workbench.iconTheme": "vs-seti",
-  "editor.fontFamily": "Consolas, 'Courier New', monospace",
-  "editor.wordWrap": "wordWrapColumn",
-  "editor.renderWhitespace": "none",
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true
+"editor.fontSize": 17,
+"files.autoSave": "onFocusChange",
+"editor.fontFamily": "Consolas, 'Courier New', monospace",
+"editor.tabSize": 2,
+"editor.fontLigatures": true,
+"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+"extensions.ignoreRecommendations": false,
+"workbench.colorTheme": "Monokai",
+"editor.lineHeight": 20,
+"sync.gist": "8ee177b7fa47e84444e486dd3aee1094",
+"sync.autoDownload": false,
+"sync.autoUpload": false,
+"sync.forceDownload": false,
+"sync.quietSync": false,
+"sync.askGistName": false,
+"workbench.iconTheme": "vs-seti",
+"search.followSymlinks": false,
+"emmet.preferences": {
+    "css.webkitProperties": "",
+    "css.mozProperties": "",
+    "css.oProperties": "",
+    "css.msProperties": ""
+},
+"emmet.showSuggestionsAsSnippets": true,
+"editor.quickSuggestions": {
+  "other": true,
+  "comments": true,
+  "strings": true
+},
+"element-helper.version": "2.4",
+"element-helper.pug-quotes": "single",
+"[vue]": {
+
+},
+"html.format.preserveNewLines": true,
+"html.suggest.html5": true,
+"html-css-class-completion.enableEmmetSupport": true,
+"html-css-class-completion.excludeGlobPattern": "",
+"javascript.format.insertSpaceAfterSemicolonInForStatements": true,
+"editor.detectIndentation": false,
+"eslint.validate": [
+  "javascript",
+  "javascriptreact",
+  {
+    "language": "html",
+    "autoFix": true
   },
-  "html.autoClosingTags": true,
-  "html.suggest.html5": true,
-  "html.trace.server": "messages",
-  "emmet.showExpandedAbbreviation": "always",
-  "css.trace.server": "messages",
-  "window.openFoldersInNewWindow": "on",
-  "vetur.trace.server": "messages",
-  "files.autoSaveDelay": 1000,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    {
-      "language": "vue",
-      "autoFix": true
-    },
-    {
-      "language": "html",
-      "autoFix": true
-    }
-  ],
-  "vetur.validation.template": true,
-  "eslint.autoFixOnSave": true,
-  "git.path": "D:/git/Git/bin/git.exe",
-  "eslint.enable": true,
-  "editor.formatOnPaste": true,
-  "editor.detectIndentation": false,
-  "vetur.format.defaultFormatter.html": "prettyhtml",
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
-"editor.wordWrapColumn": 120,
+  {
+    "language": "vue",
+    "autoFix": true
+  }
+],
+"eslint.autoFixOnSave": true,
+"eslint.enable": true,
+"emmet.triggerExpansionOnTab": true,
+"vetur.format.defaultFormatter.html": "prettyhtml",
 "vetur.format.defaultFormatter.js": "prettier",
+"git.path": "C:/Program Files/Git/mingw64/bin/git.exe",
+"window.zoomLevel": 0,
+"todohighlight.isEnable": true,
+"editor.wordWrap": "wordWrapColumn",
+"editor.wordWrapColumn": 130,
+"vetur.validation.template": false,
+"breadcrumbs.enabled": true,
+"less.compile": {
+  "out": "${workspaceRoot}\\src\\common\\css\\"
+},
 "vetur.format.defaultFormatterOptions": {
-   "js-beautify-html": {
-      "wrap_attributes": "auto"
-   },
-   "prettyhtml": {
-      "printWidth": 120,
-      "singleQuote": false,
-      "wrapAttributes": false,
-      "sortAttributes": false
-   },
-   "prettier": {
-      "tabWidth": 2,
-      "semi": false,
-      "singleQuote": true
-   }
-}
+  "js-beautify-html": {
+    "wrap_line_length": 120,
+    "wrap_attributes": "auto",
+    "end_with_newline": false
+  },
+  "prettyhtml": {
+    "printWidth": 120,
+    "singleQuote": false,
+    "wrapAttributes": false,
+    "sortAttributes": false
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "tabWidth": 2,
+    "TrailingCooma": true,
+    "bracketSpacing": true
+  }
+},
+"emmet.syntaxProfiles": {
+  "vue-html": "html",
+  "vue": "html"
+},
+"editor.minimap.maxColumn": 80,
+"editor.parameterHints.cycle": true,
 }
